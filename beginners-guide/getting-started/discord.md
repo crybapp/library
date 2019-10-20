@@ -1,4 +1,4 @@
-# Setting up Discord Integration
+# Setting up a Discord application
 Currently, Cryb relies on `Login with Discord` for initial authentication. This guide will tell you how to setup a [Discord](https://discordapp.com) application for use with Cryb.
 
 ## Docs

@@ -63,8 +63,8 @@ You'll need to do this for the rest of the unset values in the `.env` file. Use 
 | `APERTURE_WS_KEY`       | Used for signing / verifying WebSocket tokens to `@cryb/aperture`                  | *See `JWT_KEY`*                                                     |
 | `MONGO_URI`             | The URI of the MongoDB database                                                    | mongodb://localhost:27017/cryb                                      |
 | `REDIS_URI`             | The URI of the Redis database                                                      | redis://localhost:6379                                              |
-| `DISCORD_CLIENT_ID`     | The client ID of the Discord Oauth2 application                                    | *N/A*                                                               |
-| `DISCORD_CLIENT_SECRET` | The client secret of the Discord Oauth2 application                                | *N/A*                                                               |
+| `DISCORD_CLIENT_ID`     | The client ID of the Discord Oauth2 application                                    | See [Discord setup](../discord.md)                                  |
+| `DISCORD_CLIENT_SECRET` | The client secret of the Discord Oauth2 application                                | See [Discord setup](../discord.md)                                  |
 | `DISCORD_CALLBACK_URL`  | The callback URL for Discord Oauth2 application that should be sent to `@cryb/web` | http://localhost:3000/auth/discord                                  |
 | `DISCORD_OAUTH_ORIGINS` | A list of comma-separated origins that Oauth2 logins should be accepted from       | http://localhost:3000                                               |
 
