@@ -20,7 +20,7 @@ This will clone all our API code into a folder called `api`. Let's enter that fo
 
 ## Installing Dependencies
 
-Once we're in the API folder, we'll need to install the dependencies that are needed to install API. Simply run `yarn` in your Terminal and all the dependencies are downloaded and installed like magic.
+Once we're in the API folder, we'll need to install the dependencies that are required to run API. Simply run `yarn` in your Terminal and all the dependencies are downloaded and installed like magic.
 
 ## Setting up environment variables
 
@@ -34,7 +34,7 @@ cp .env.example .env
 
 This will copy the `.env.example` file to `.env`. Now let's edit that file. You can use any text editor of your choice, we'll use Vim in this case. Just run:
 
-```
+```sh
 vi .env
 ```
 
@@ -45,7 +45,6 @@ Now, press `i` to go into insert mode. Let's first of all fill in `NODE_ENV`. Po
 Let's write `development` to show we're running `@cryb/api` in Development mode. If you're running `@cryb/api` in production, on a [MacStadium](https://www.macstadium.com/) server for example, write `production`.
 
 You'll need to do this for the rest of the unset values in the `.env` file. Use the handy table below to decide what you'll need to enter for each file:
-
 | **Variable Name**       | **Description**                                                                    | **Recommended Value**                                               |
 |-------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | `NODE_ENV`              | Used for setting the environment of `@cryb/api`                                    | development                                                         |
