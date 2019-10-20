@@ -45,6 +45,7 @@ Now, press `i` to go into insert mode. Let's first of all fill in `NODE_ENV`. Po
 Let's write `development` to show we're running `@cryb/api` in Development mode. If you're running `@cryb/api` in production, on a [MacStadium](https://www.macstadium.com/) server for example, write `production`.
 
 You'll need to do this for the rest of the unset values in the `.env` file. Use the handy table below to decide what you'll need to enter for each file:
+
 | **Variable Name**       | **Description**                                                                    | **Recommended Value**                                               |
 |-------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | `NODE_ENV`              | Used for setting the environment of `@cryb/api`                                    | development                                                         |

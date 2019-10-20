@@ -39,6 +39,7 @@ This will copy the `.env.example` file to `.env`. Now let's edit that file. You 
 If you followed onto this tutorial from [Setting up API](./api.md), it should be easier to setup `@cryb/web`'s environment variables. If you didn't read the tutorial for `@cryb/api`, and you're not sure how to setup the environment variables for this deployment, [check here](./api.md#setting-up-environment-variables) for more help.
 
 Here's a handy table below to decide what you'll need to enter for each file:
+
 | **Variable Name** | **Description**                                     | **Recommended Value** |
 |-------------------|-----------------------------------------------------|-----------------------|
 | `NODE_ENV`        | Used for setting the environment of `@cryb/web`     | development           |
