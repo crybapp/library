@@ -4,7 +4,8 @@ Firstly, you'll need to install some developer tools to get Cryb setup on macOS.
 ## Docs
 * [Using Terminal](#using-terminal)
 * [Tools Needed](#tools-needed)
-* [Next Step](#next-step)
+* [Setting up the folder structure](#setting-up-the-folder-structure)
+* [Next step](#next-step)
 
 ## Using Terminal
 You'll want to use `Terminal.app`, which is pre-installed on all macOS installations by default. You can find Terminal under `Appications/Utilities/Terminal.app`.
@@ -24,7 +25,7 @@ Here you'll run all the commands needed to setup Cryb.
     * Used as the runtime for all major Cryb deployments.
     * [Install](https://nodejs.org/en/)
 * Yarn
-    * **Recommended**
+    * ~~**Recommended**~~ **Required**
     * Used instead of `npm` for running deployments and installing packages.
     * [Install](https://yarnpkg.com/en/docs/install#mac-stable)
     * If you installed Homebrew, you can run `brew install yarn` to install Yarn
@@ -43,5 +44,20 @@ Here you'll run all the commands needed to setup Cryb.
     * If you installed Homebrew, you can run `brew install redis` to install Redis
     * You may also want to install a Redis GUi such as [Medis](https://github.com/luin/medis) to view or edit data and run commands on your Redis server
 
-## Next Step
-Next we'll setup `@cryb/api`: [Setting up API](./api.md)
+## Setting up the folder structure
+Now we have the tools we need installed, we'll setup our folder structure. First of all, open up your Terminal. Now, type the following and hit enter:
+
+```
+mkdir cryb
+```
+
+This creates a folder called `cryb` in our home folder. Now, we'll want to enter that folder. Type the following and hit enter:
+
+```
+cd cryb
+```
+
+Now we're in the `cryb` directory, and we're ready to continue onto the next step.
+
+## Next step
+Next we'll setup `@cryb/api`: [Setting up API](./api.md).
