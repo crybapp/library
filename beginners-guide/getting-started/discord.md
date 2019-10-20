@@ -3,7 +3,7 @@ Currently, Cryb relies on `Login with Discord` for initial authentication. This 
 
 ## Docs
 * [Creating an application](#creating-an-application)
-* [Setting up Oauth2](#setting-up-oauth2)
+* [Setting up OAuth2](#setting-up-oauth2)
 * [Next step](#next-step)
 
 ## Creating an application
@@ -29,8 +29,8 @@ You can also give your application a special icon if you want, but you don't hav
 * You'll want to copy the client ID and client secret to the environment variables in `@cryb/api`.
 * **Never share your Discord Client Secret with anyone, even if they say they're from Discord or Cryb. This will let anyone pretend to be any user on your Cryb instance, or worse.**
 
-## Setting up Oauth2
-Next, let's setup the Oauth2. Click 'Oauth2' on the side tab bar, and then 'Add Redirect' under the 'Redirects' section.
+## Setting up OAuth2
+Next, let's setup the OAuth2. Click 'OAuth2' on the side tab bar, and then 'Add Redirect' under the 'Redirects' section.
 
 ![Adding a Redirect URI](assets/discord-setup-02.png)
 
