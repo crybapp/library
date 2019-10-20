@@ -2,11 +2,17 @@
 API will handle requests from our client, in this case `@cryb/web`, such as creating rooms or sending messages.
 
 ## Docs
+* [Pre-setup requirements](#pre-setup-requirements)
 * [Cloning API](#cloning-api)
 * [Installing Dependencies](#installing-dependencies)
 * [Setting up environment variables](#setting-up-environment-variables)
 * [Running API](#running-api)
 * [Next step](#next-step)
+
+## Pre-setup requirements
+**If you've already setup a Discord application, you can skip this step and continue to [Cloning API](#cloning-api)**
+
+You'll need to create an application with Discord to setup and use `@cryb/api`. There's a guide for that [here](../discord.md), so if you haven't got a Discord application created, get that done now as you'll need a client id and client secret to finish this guide!
 
 ## Cloning API
 
