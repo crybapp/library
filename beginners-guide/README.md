@@ -10,11 +10,12 @@ So, let's get started!
 
 ## What platform are you looking to deploy Cryb on?
 * Windows (*guide coming soon*)
-* macOS (60% completed)
+* macOS (66% completed)
     * [Setup](getting-started/macOS/setup.md)
     * [Setting up API](getting-started/macOS/api.md)
     * [Setting up Web](getting-started/macOS/web.md)
-    * Setting up Portals (*guide coming soon*)
+    * [Setting up Portals](getting-started/macOS/portals.md)
+    * Setting up Portal (*guide coming soon*)
     * Setting up Aperture (*guide coming soon*)
 * Linux
     * Ubuntu (*guide coming soon*)
