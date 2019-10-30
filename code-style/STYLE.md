@@ -62,3 +62,19 @@ import StoredUser from './schemas/user.schema'
 
 import { extractUserId } from './utils/helpers.utils'
 ```
+
+## Line length
+
+In the event of a line getting long, split it into multiple lines.
+
+Example
+```js
+// ❌ This is too long.
+console.log(require('fs').readFileSync('logo.txt', 'utf8').replace(':APERTURE_PORT', aperturePort).replace(':STREAMING_PORT', streamingPort))
+
+// ✔️ This is better and is easier to read.
+console.log(require('fs').readFileSync('logo.txt', 'utf8')
+            .replace(':APERTURE_PORT', aperturePort)
+            .replace(':STREAMING_PORT', streamingPort)
+)
+```
