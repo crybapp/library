@@ -4,6 +4,9 @@ When writing code for Cryb, we would like you to follow these guidelines so we c
 
 ## General Rules
 
+* Indent size should be of 4 spaces
+* Files should end in `LF` with a newline, encoded in `UTF-8`
+* Trailing whitespaces should be trimmed
 * No semicolons unless required
 * Use single quotes instead of double quotes
 
