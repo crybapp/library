@@ -14,7 +14,7 @@ Use `const` when the variable isn't mutable. Otherwise, use `let`.
 Example:
 ```ts
 const product = 'Cryb'
-const mutableVariable = 'Yo'
+let mutableVariable = 'Yo'
 ```
 
 ## Conditional statements
@@ -27,10 +27,10 @@ Don't use brackets if they are not needed.
 
 Example:
 ```ts
-const product = 'Cryb';
+const product = 'Cryb'
 
 if(product === 'Cryb') {
-    console.log("Hey look, it's Cryb!");
+    console.log("Hey look, it's Cryb!")
 } else if(product === 'Some other product name')
     console.log("Oh, it's not Cryb.")
 else return
@@ -41,10 +41,10 @@ else return
 Sort imports by the following in terms of priority:
 
 1. Packages
-1. Models
-1. Schemas
-1. Interfaces
-1. Utils
+2. Models
+3. Schemas
+4. Interfaces
+5. Utils
 
 Please also sort by line width.
 
