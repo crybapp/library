@@ -72,7 +72,7 @@ Method chaining is fine, but to prevent long lines, please split your method cal
 
 Example:
 
-```js
+```ts
 // ❌ This is too long.
 console.log(require('fs').readFileSync('logo.txt', 'utf8').replace(':APERTURE_PORT', aperturePort).replace(':STREAMING_PORT', streamingPort))
 
