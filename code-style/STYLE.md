@@ -15,6 +15,7 @@ When writing code for Cryb, we would like you to follow these guidelines so we c
 Use `const` when the variable isn't mutable. Otherwise, use `let`.
 
 Example:
+
 ```ts
 const product = 'Cryb'
 let mutableVariable = 'Yo'
@@ -29,6 +30,7 @@ Always have the brackets up against the statement and away from the curly braces
 Don't use brackets if they are not needed.
 
 Example:
+
 ```ts
 const product = 'Cryb'
 
@@ -52,6 +54,7 @@ Sort imports by the following in terms of priority:
 Please also sort by line width.
 
 Example:
+
 ```ts
 import fs from 'fs'
 
