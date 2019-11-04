@@ -74,11 +74,17 @@ Example:
 
 ```ts
 // ❌ This is too long.
-console.log(require('fs').readFileSync('logo.txt', 'utf8').replace(':APERTURE_PORT', aperturePort).replace(':STREAMING_PORT', streamingPort))
+functionCall().then(() => console.log("hey!")).catch(err => console.log("error!")).finally(() => console.log("finally!"))
 
 // ✔️ This is better and is easier to read.
-console.log(require('fs').readFileSync('logo.txt', 'utf8')
-            .replace(':APERTURE_PORT', aperturePort)
-            .replace(':STREAMING_PORT', streamingPort)
-)
+functionCall()
+    .then(() => {
+        console.log("hey!")
+    })
+    .catch(err => {
+        console.log("error!")
+    })
+    .finally(() => {
+        console.log("finally!")
+    })
 ```
