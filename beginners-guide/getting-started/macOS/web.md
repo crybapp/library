@@ -15,7 +15,7 @@ Web is used as our primary client for interacting with `@cryb/api` and in some c
 First, we'll need to clone `@cryb/web` from GitHub. In your terminal, type the following and hit enter:
 
 ```sh
-git clone https://github.com/cryb/web.git
+git clone https://github.com/crybapp/web.git
 ```
 
 This will clone all our Web code into a folder called `web`. Let's enter that folder using `cd web`.
