@@ -15,7 +15,7 @@ Portals is used as the microservice that queues, creates and destroys VM instanc
 First, we'll need to clone `@cryb/portals` from GitHub. In your terminal, type the following and hit enter:
 
 ```sh
-git clone https://github.com/cryb/portals.git
+git clone https://github.com/crybapp/portals.git
 ```
 
 This will clone all our Portals code into a folder called `portals`. Let's enter that folder using `cd portals`.
