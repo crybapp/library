@@ -5,5 +5,6 @@
 ## Table of Contents
 
 * [Beginners Guide](beginners-guide/README.md)
-* [Guidelines](guidelines/README.md)
+* [Code style](code-style/README.md)
+* [Code of Conduct](CODE_OF_CONDUCT.md)
 * [Security Policy](SECURITY.md)
