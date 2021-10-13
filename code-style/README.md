@@ -4,7 +4,10 @@ _**Code Style**_
 
 When writing code for Cryb, we would like you to follow these guidelines so we can keep our code clean and consistent across all projects.
 
-This folder also contains common shared files between repositories. Please look at them for guidance.
+This applies for any JavaScript/TypeScript-based project. For Rust, we stick to `rustfmt`/`clippy` default rules.
+
+These rules are generally enforced via our `@cryb/eslint-config` package.
+If there's a mismatch between the guidelines outlined here, please open an issue.
 
 ## Table of Contents
 
@@ -37,19 +40,6 @@ const product = 'Cryb'
 let mutableVariable = 'Yo'
 ```
 
-When multiple variables are being defined, chain them.
-
-Example:
-
-```ts
-const name = 'William',
-      age = 18,
-      location: 'UK'
-
-// Notice how each variable is indented to where the initial variable starts.
-// If this cannot be achieved, indent to one space after the initial variable.
-```
-
 ### Naming Convention
 
 Please view the following examples for how variables should be named.
@@ -57,8 +47,8 @@ Please view the following examples for how variables should be named.
 #### JavaScript / TypeScript
 
 ```ts
-const name = 'William',
-      appName: 'Cryb'
+const name = 'William'
+const appName = 'Cryb'
 ```
 
 #### TypeScript Interface
